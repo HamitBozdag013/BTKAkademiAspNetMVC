@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "sME381v9fwVDpVeSwE5EBZBAHFY9HxjxUlMd9E/7q7Q=",
+  "Hash": "/L14MS7axIKDLPgy2IEjA68VhUEQAa/AhVGL2HFg3Qw=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "StoreApp\\wwwroot",
+      "Source": "StoreApp",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNet\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNet\\Store\\StoreApp\\wwwroot\\html\\Error.html",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNet\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "html/Error.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    }
+  ]
 }

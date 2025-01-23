@@ -11,22 +11,16 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sqlConnection"));
 });
 
-// builder.Services.AddDbContext<RepositoryContext>(options =>
-// {
-//     options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
-// });
-
 var app = builder.Build();
 
-// app.MapGet("/", () => "Hello World!");
-
+app.UseStaticFiles(); //Uygulamamızın static dosyalarda kullanabileceğini belirttik.
 app.UseHttpsRedirection();
 app.UseRouting();
 
 // app.MapControllerRoute("default","{controller=Home}/{action=Index}/{id?}"); Bu şekilde de alttaki şekilde de kullanılabilir.
 
 app.MapControllerRoute(
-    name:"default",
-    pattern:"{controller=Home}/{action=Index}/{id?}");
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

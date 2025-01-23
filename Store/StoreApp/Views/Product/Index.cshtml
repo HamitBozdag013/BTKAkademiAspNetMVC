@@ -1,4 +1,4 @@
-@model List<StoreApp.Models.Product>
+@model List<Product>
 
 @section Footer{
     <div>
@@ -6,13 +6,17 @@
     </div>
 }
 
-@foreach (StoreApp.Models.Product product in Model)
+@foreach (Product product in Model)
 {
-    <div>
+     @* <div>
         <h3>@product.ProductName</h3>
         <p>@product.Price</p>
         <p>
             <a href="/Product/Detail/@product.ProductId">Product Details</a>
         </p>
-    </div>
+    </div> *@
+
+     @* Üstteki kod yerine ortak bir tasarım olması adına aşağıdaki gibi _ProductCard isimli Partial 'ı gereken yerlerde kullanabiliriz. *@
+
+    <partial name="_ProductCard" model="@product"/>
 }

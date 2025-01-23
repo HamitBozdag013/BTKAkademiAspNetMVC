@@ -1,8 +1,13 @@
-@model StoreApp.Models.Product
+@* @{
+     Layout = null; _Layout tasarımını kullanmak istemediğimiz sayfalarda bu ifadeyi yazmamız yeterlidir.
+} *@
+
+@model Product
 
         <h3>@Model.ProductName</h3>
-        <p>@Model.Price</p>
+        <p>@Model.Price.ToString("c")</p>
         <a href="/Product/Index">Products</a>
+
 
 @section Header{
     <div>
