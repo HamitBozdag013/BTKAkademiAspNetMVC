@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">BTK Akademi</h1>
+    <p>
+        @*<a class="btn btn-primary" href="/Course/Apply">Apply</a>*@         
+        <a class="btn btn-primary" asp-controller="Course" asp-action="Apply">Apply</a> @* Üstteki kodu burada TagHelper 'lar kullanarak daha kullanışlı hale getirdik. *@
+
+    </p>
+</div>

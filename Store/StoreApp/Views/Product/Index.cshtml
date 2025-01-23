@@ -1,0 +1,18 @@
+@model List<StoreApp.Models.Product>
+
+@section Footer{
+    <div>
+        Only for Index footer
+    </div>
+}
+
+@foreach (StoreApp.Models.Product product in Model)
+{
+    <div>
+        <h3>@product.ProductName</h3>
+        <p>@product.Price</p>
+        <p>
+            <a href="/Product/Detail/@product.ProductId">Product Details</a>
+        </p>
+    </div>
+}
