@@ -6,7 +6,15 @@
 
         <h3>@Model.ProductName</h3>
         <p>@Model.Price.ToString("c")</p>
-        <a href="/Product/Index">Products</a>
+
+        <div class="btn-group">
+            <a class="btn btn-secondary" asp-controller="Home" asp-action="Index">
+                <i class="fa-solid fa-house"></i> Home</a>
+            <a class="btn btn-success" asp-controller="Product" asp-action="Index">
+                <i class="fa-solid fa-list"></i> Products</a>
+
+        </div>
+        
 
 
 @section Header{

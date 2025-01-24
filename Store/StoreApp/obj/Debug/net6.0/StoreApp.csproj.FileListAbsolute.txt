@@ -226,3 +226,6 @@ D:\BTKAkademiAspNet\Store\StoreApp\obj\Debug\net6.0\StoreApp.genruntimeconfig.ca
 D:\BTKAkademiAspNet\Store\StoreApp\obj\Debug\net6.0\ref\StoreApp.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\obj\Debug\net6.0\StoreApp.sourcelink.json
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\libman.json
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Entities.pdb

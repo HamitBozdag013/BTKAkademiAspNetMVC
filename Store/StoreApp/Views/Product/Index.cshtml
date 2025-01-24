@@ -1,14 +1,15 @@
 @model List<Product>
 
-@section Footer{
+@section Footer {
     <div>
         Only for Index footer
     </div>
 }
 
+    <div class="row my-3">
 @foreach (Product product in Model)
 {
-     @* <div>
+    @* <div>
         <h3>@product.ProductName</h3>
         <p>@product.Price</p>
         <p>
@@ -16,7 +17,8 @@
         </p>
     </div> *@
 
-     @* Üstteki kod yerine ortak bir tasarım olması adına aşağıdaki gibi _ProductCard isimli Partial 'ı gereken yerlerde kullanabiliriz. *@
+    @* Üstteki kod yerine ortak bir tasarım olması adına aşağıdaki gibi _ProductCard isimli Partial 'ı gereken yerlerde kullanabiliriz. *@
 
-    <partial name="_ProductCard" model="@product"/>
+        <partial name="_ProductCard" model="@product" />
 }
+    </div>
