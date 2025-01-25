@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using StoreApp.Models;
+using Repositories;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,8 @@ builder.Services.AddControllersWithViews();
 //Bu service 'i RepositoryContext 'i controller larda new leyip Dependency Injection yapabilmek için yazıyoruz.
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("sqlConnection"));
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqlConnection"),
+    b=>b.MigrationsAssembly("StoreApp"));
 });
 
 var app = builder.Build();

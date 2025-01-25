@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csproj", "{59369692-238B-44B2-9986-CBC04FD188D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{C8103D00-A99F-4972-A868-16D8E8FC0AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Store\Repositories\Repositories.csproj", "{C23959A6-DC3D-4939-ACA8-CA31A0A81F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,18 @@ Global
 		{59369692-238B-44B2-9986-CBC04FD188D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59369692-238B-44B2-9986-CBC04FD188D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59369692-238B-44B2-9986-CBC04FD188D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23959A6-DC3D-4939-ACA8-CA31A0A81F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23959A6-DC3D-4939-ACA8-CA31A0A81F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23959A6-DC3D-4939-ACA8-CA31A0A81F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23959A6-DC3D-4939-ACA8-CA31A0A81F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {508FD5B1-7CCB-4BCA-8370-4EA0EBD299BB}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C23959A6-DC3D-4939-ACA8-CA31A0A81F9A} = {C8103D00-A99F-4972-A868-16D8E8FC0AB8}
 	EndGlobalSection
 EndGlobal

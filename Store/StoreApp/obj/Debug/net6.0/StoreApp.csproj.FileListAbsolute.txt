@@ -229,3 +229,5 @@ C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Sto
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\libman.json
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Entities.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb

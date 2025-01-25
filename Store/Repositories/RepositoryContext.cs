@@ -1,9 +1,9 @@
+﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
-using Entities.Models;
 
-namespace StoreApp.Models
+namespace Repositories
 {
-    public class RepositoryContext : DbContext
+     public class RepositoryContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
         public RepositoryContext(DbContextOptions<RepositoryContext> options)

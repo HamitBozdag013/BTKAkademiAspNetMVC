@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using StoreApp.Models;
 using Entities.Models;
+using Repositories;
 
 namespace StoreApp.Controllers
 {
@@ -33,7 +33,7 @@ namespace StoreApp.Controllers
 
         public IActionResult Detail(int id)
         {
-            var value = _context.Products.First(p=>p.ProductId.Equals(id));
+            var value = _context.Products.First(p => p.ProductId.Equals(id));
             return View(value);
         }
     }
