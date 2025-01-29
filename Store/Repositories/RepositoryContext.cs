@@ -1,9 +1,9 @@
-﻿using Entities.Models;
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repositories
 {
-     public class RepositoryContext : DbContext
+    public class RepositoryContext:DbContext
     {
         public DbSet<Product> Products { get; set; }
         public RepositoryContext(DbContextOptions<RepositoryContext> options)
@@ -11,8 +11,7 @@ namespace Repositories
         {
 
         }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Product>()
@@ -24,5 +23,6 @@ namespace Repositories
                 new Product() { ProductId = 5, ProductName = "Deck", Price = 1500 }
             );
         }
+
     }
 }

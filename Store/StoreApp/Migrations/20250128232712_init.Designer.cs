@@ -10,8 +10,8 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20250125054422_startPoint")]
-    partial class startPoint
+    [Migration("20250128232712_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
