@@ -53,7 +53,8 @@ namespace StoreApp.Controllers
 
         public IActionResult Detail(int id)
         {
-            throw new NotImplementedException();
+            var value=_manager.Product.GetOneProduct(id,false);
+            return View(value);
         }
     }
 
