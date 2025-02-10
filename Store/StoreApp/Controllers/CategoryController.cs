@@ -13,9 +13,10 @@ namespace StoreApp.Controllers
             _manager = manager;
         }
 
-        public IEnumerable<Category> Index()
+        public IActionResult Index()
         {
-            return _manager.Category.FindAll(false);
+            var values=_manager.Category.FindAll(false);
+            return View(values); 
         }
     }
 }

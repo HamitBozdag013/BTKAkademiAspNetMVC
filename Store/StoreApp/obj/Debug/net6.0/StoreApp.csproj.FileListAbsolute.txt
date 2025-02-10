@@ -231,3 +231,5 @@ C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Ent
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Services.dll
+C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\StoreApp\bin\Debug\net6.0\Services.pdb

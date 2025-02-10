@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 using Repositories.Contracts;
+using Services.Contracts;
 
 namespace StoreApp.Controllers
 {
@@ -37,23 +38,28 @@ namespace StoreApp.Controllers
         //     return View(value);
         // }
         
-        private readonly IRepositoryManager _manager;
+        //private readonly IRepositoryManager _manager;
 
+        //public ProductController(IRepositoryManager manager)
+        //{
+        //    _manager = manager;
+        //}
+        private readonly IServiceManager _manager;
 
-        public ProductController(IRepositoryManager manager)
+        public ProductController(IServiceManager manager)
         {
             _manager = manager;
         }
 
         public IActionResult Index()
         {
-            var values = _manager.Product.GetAllProducts(false).ToList();
+            var values = _manager.ProductService.GetAllProducts(false).ToList();
             return View(values);
         }
 
-        public IActionResult Detail(int id)
+        public IActionResult Detail([FromRoute(Name ="id")]int id)
         {
-            var value=_manager.Product.GetOneProduct(id,false);
+            var value=_manager.ProductService.GetOneProduct(id,false);
             return View(value);
         }
     }
