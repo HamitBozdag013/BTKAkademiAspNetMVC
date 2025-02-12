@@ -10,13 +10,39 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20250128232712_init")]
+    [Migration("20250212014332_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.36");
+
+            modelBuilder.Entity("Entities.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CategoryName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Book"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "Electronic"
+                        });
+                });
 
             modelBuilder.Entity("Entities.Models.Product", b =>
                 {
@@ -64,6 +90,12 @@ namespace StoreApp.Migrations
                             ProductId = 5,
                             Price = 1500m,
                             ProductName = "Deck"
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            Price = 800m,
+                            ProductName = "SSD"
                         });
                 });
 #pragma warning restore 612, 618

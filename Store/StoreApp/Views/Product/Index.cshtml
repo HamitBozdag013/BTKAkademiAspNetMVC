@@ -1,24 +1,33 @@
 @model List<Product>
 
+    <div class="row">
+        <div class="col-md-3">
+            @await Component.InvokeAsync("CategoriesMenu")
+        </div>
+        <div class="col-md-9">
+            <div class="row my-3">
+                @foreach (Product product in Model)
+                {
+                    @* <div>
+                        <h3>@product.ProductName</h3>
+                        <p>@product.Price</p>
+                        <p>
+                            <a href="/Product/Detail/@product.ProductId">Product Details</a>
+                        </p>
+                    </div> *@
+
+                    @* Üstteki kod yerine ortak bir tasarım olması adına aşağıdaki gibi _ProductCard isimli Partial 'ı gereken yerlerde kullanabiliriz. *@
+
+                        <partial name="_ProductCard" model="@product" />
+                }
+            </div>
+        </div>
+    </div>
+
 @section Footer {
     <div>
         Only for Index footer
     </div>
 }
 
-    <div class="row my-3">
-@foreach (Product product in Model)
-{
-    @* <div>
-        <h3>@product.ProductName</h3>
-        <p>@product.Price</p>
-        <p>
-            <a href="/Product/Detail/@product.ProductId">Product Details</a>
-        </p>
-    </div> *@
-
-    @* Üstteki kod yerine ortak bir tasarım olması adına aşağıdaki gibi _ProductCard isimli Partial 'ı gereken yerlerde kullanabiliriz. *@
-
-        <partial name="_ProductCard" model="@product" />
-}
-    </div>
+    

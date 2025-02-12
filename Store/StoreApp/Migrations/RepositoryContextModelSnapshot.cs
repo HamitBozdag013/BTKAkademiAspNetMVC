@@ -88,6 +88,12 @@ namespace StoreApp.Migrations
                             ProductId = 5,
                             Price = 1500m,
                             ProductName = "Deck"
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            Price = 800m,
+                            ProductName = "SSD"
                         });
                 });
 #pragma warning restore 612, 618

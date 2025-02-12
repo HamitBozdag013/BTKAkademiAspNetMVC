@@ -23,7 +23,8 @@ namespace Repositories
                 new Product() { ProductId = 2, ProductName = "Keyboard", Price = 1000 },
                 new Product() { ProductId = 3, ProductName = "Mouse", Price = 500 },
                 new Product() { ProductId = 4, ProductName = "Monitör", Price = 7000 },
-                new Product() { ProductId = 5, ProductName = "Deck", Price = 1500 }
+                new Product() { ProductId = 5, ProductName = "Deck", Price = 1500 },
+                new Product() { ProductId = 6, ProductName = "SSD", Price = 800 }
             );
 
             modelBuilder.Entity<Category>()
