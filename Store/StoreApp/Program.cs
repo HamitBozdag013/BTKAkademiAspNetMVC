@@ -32,10 +32,31 @@ app.UseStaticFiles(); //Uygulamamızın static dosyalarda kullanabileceğini bel
 app.UseHttpsRedirection();
 app.UseRouting();
 
+
 // app.MapControllerRoute("default","{controller=Home}/{action=Index}/{id?}"); Bu şekilde de alttaki şekilde de kullanılabilir.
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+// app.MapControllerRoute(
+//     name: "default",
+//     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+/*Projeme Admin işlmeleri için yeni bir alan(area) eklediğim için artık birden fazla endpoints 'im var. Bu yüzden UseEndpoints yapısını kullanarak
+üstteki kodu aşağıdaki şekilde refactoring ediyorum.*/
+
+app.UseEndpoints(endpoints =>
+{
+    _ = endpoints.MapAreaControllerRoute(
+        name: "Admin",
+        areaName: "Admin",
+        pattern: "Admin/{controller=Dashboard}/{action=Index}/{id?}"
+    );
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+
+});
+
 
 app.Run();
+
