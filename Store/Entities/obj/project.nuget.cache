@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NdzhoC+Q2xlT7m42GtxVYqF+16xUnQjWWKPtStHKRRQEnRCmr+L3SRJ/4vVWsu9mFTTOhRuU98SyyAhL/C0kmA==",
+  "dgSpecHash": "AUozHoY5p5n1hZSyTrDZky/VWhxb4FkZ6lPGGOlAhaX4Q5dzbpSuIPifUO6bfqruku68TAvmFHP370MtvOvzPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNet\\Store\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
