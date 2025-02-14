@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19EU9mYLIb2oF6fLH4dgTnai7h8HRNCXTJ8v1qOPR2qGQuTeHegj4+xUPfJgjxpRNyECyziYvJp3plQk2aDaIA==",
+  "dgSpecHash": "L8ytojnAg+WYIHtXs05IMgo9G1+HXWHFzV5MS/WVSP4NumewE6AE1z4a6NgQuUasxFDrfMIou8LD90JMFZdcXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNet\\Store\\StoreApp\\StoreApp.csproj",
+  "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bozda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.36\\microsoft.data.sqlite.core.6.0.36.nupkg.sha512",
