@@ -13,7 +13,6 @@ C:\Users\bozda\source\repos\BTKAkademiAspNet\Store\Entities\obj\Debug\net6.0\ref
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\bin\Debug\net6.0\Entities.deps.json
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\bin\Debug\net6.0\Entities.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\bin\Debug\net6.0\Entities.pdb
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.sourcelink.json
