@@ -21,4 +21,4 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\ref\Entities.dll
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Entities\obj\Debug\net6.0\Entities.sourcelink.json

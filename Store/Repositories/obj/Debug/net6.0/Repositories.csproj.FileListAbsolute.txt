@@ -28,4 +28,5 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net6.0\refint\Repositories.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net6.0\Repositories.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net6.0\ref\Repositories.dll
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net6.0\Repositories.sourcelink.json
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Repositories\obj\Debug\net6.0\Reposito.787EC4B2.Up2Date

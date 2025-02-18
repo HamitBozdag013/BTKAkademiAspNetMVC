@@ -310,4 +310,13 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.genruntimeconfig.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\ref\StoreApp.dll
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.endpoints.json
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.sourcelink.json
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.StoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.StoreApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.StoreApp.props
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StoreApp.props
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StoreApp.props
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.Up2Date
