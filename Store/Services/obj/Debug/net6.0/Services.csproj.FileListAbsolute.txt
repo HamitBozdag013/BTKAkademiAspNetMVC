@@ -32,5 +32,4 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\refint\Services.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\Services.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\ref\Services.dll
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\Services.sourcelink.json
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\Services.csproj.Up2Date
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\Services\obj\Debug\net6.0\Services.csproj.CopyComplete

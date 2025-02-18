@@ -310,10 +310,4 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.genruntimeconfig.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\ref\StoreApp.dll
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.sourcelink.json
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.StoreApp.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.StoreApp.props
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StoreApp.props
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StoreApp.props
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.Up2Date
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
