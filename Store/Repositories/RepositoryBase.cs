@@ -4,7 +4,7 @@ using Repositories.Contracts;
 
 namespace Repositories
 {
-    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T:class, new()
+    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class, new()
     {
         protected readonly RepositoryContext _context;
 
@@ -20,7 +20,7 @@ namespace Repositories
 
         public T? FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
         {
-            return trackChanges 
+            return trackChanges
             ? _context.Set<T>().Where(expression).SingleOrDefault()
             : _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefault();
         }
