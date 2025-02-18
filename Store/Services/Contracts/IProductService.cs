@@ -6,6 +6,8 @@ namespace Services.Contracts
     {
         IEnumerable<Product> GetAllProducts(bool trachChanges);
         Product? GetOneProduct(int id, bool trachChanges);
+
+        void CreateProduct(Product product);
     }
     
 }
