@@ -36,6 +36,24 @@ namespace StoreApp.Areas.Admin.Controllers
             }
             return View();
         }
+
+        public IActionResult Update([FromRoute(Name ="id")] int id)
+        {
+            var value = _manager.ProductService.GetOneProduct(id,false);
+            return View(value);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update(Product product)
+        {
+            if(ModelState.IsValid)
+            {
+                _manager.ProductService.UpdateProduct(product);
+                return RedirectToAction("Index");
+            }   
+            return View();
+        }
     }
 
 }

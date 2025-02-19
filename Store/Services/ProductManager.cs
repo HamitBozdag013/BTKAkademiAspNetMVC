@@ -19,6 +19,14 @@ namespace Services
             _manager.Save();
         }
 
+        public void UpdateProduct(Product product)
+        {
+             var value = _manager.Product.GetOneProduct(product.ProductId,true);
+             value.ProductName=product.ProductName;
+             value.Price=product.Price;
+            _manager.Save();
+        }
+
         public IEnumerable<Product> GetAllProducts(bool trachChanges)
         {
             return _manager.Product.GetAllProducts(trachChanges);

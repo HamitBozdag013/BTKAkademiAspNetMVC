@@ -8,6 +8,7 @@ namespace Services.Contracts
         Product? GetOneProduct(int id, bool trachChanges);
 
         void CreateProduct(Product product);
+        void UpdateProduct(Product product);
     }
     
 }
