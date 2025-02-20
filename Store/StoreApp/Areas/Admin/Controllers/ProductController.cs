@@ -37,9 +37,9 @@ namespace StoreApp.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult Update([FromRoute(Name ="id")] int id)
+        public IActionResult Update([FromRoute(Name = "id")] int id)
         {
-            var value = _manager.ProductService.GetOneProduct(id,false);
+            var value = _manager.ProductService.GetOneProduct(id, false);
             return View(value);
         }
 
@@ -47,12 +47,18 @@ namespace StoreApp.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Update(Product product)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _manager.ProductService.UpdateProduct(product);
                 return RedirectToAction("Index");
-            }   
+            }
             return View();
+        }
+
+        public IActionResult Delete([FromRoute(Name = "id")] int id)
+        {
+            _manager.ProductService.DeleteProduct(id);
+            return RedirectToAction("Index");
         }
     }
 
