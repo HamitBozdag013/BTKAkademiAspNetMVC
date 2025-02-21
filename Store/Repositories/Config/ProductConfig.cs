@@ -1,7 +1,7 @@
 namespace Repositories.Config
 {
-    // public class ProductConfig : IEntityTypeConfiguration<Product>
-    // {
+    public class ProductConfig : IEntityTypeConfiguration<Product>
+    {
         
-    // }
+    }
 }
