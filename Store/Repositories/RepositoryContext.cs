@@ -19,12 +19,12 @@ namespace Repositories
             
             modelBuilder.Entity<Product>()
             .HasData(
-                new Product() { ProductId = 1, ProductName = "Computer", Price = 17000 },
-                new Product() { ProductId = 2, ProductName = "Keyboard", Price = 1000 },
-                new Product() { ProductId = 3, ProductName = "Mouse", Price = 500 },
-                new Product() { ProductId = 4, ProductName = "Monitör", Price = 7000 },
-                new Product() { ProductId = 5, ProductName = "Deck", Price = 1500 },
-                new Product() { ProductId = 6, ProductName = "SSD", Price = 800 }
+                new Product() { ProductId = 1, CategoryId=2, ProductName = "Computer", Price = 17000 },
+                new Product() { ProductId = 2, CategoryId=2, ProductName = "Keyboard", Price = 1000 },
+                new Product() { ProductId = 3, CategoryId=2, ProductName = "Mouse", Price = 500 },
+                new Product() { ProductId = 4, CategoryId=2, ProductName = "Monitör", Price = 7000 },
+                new Product() { ProductId = 5, CategoryId=1, ProductName = "History", Price = 1500 },
+                new Product() { ProductId = 6, CategoryId=2, ProductName = "SSD", Price = 800 }
             );
 
             modelBuilder.Entity<Category>()
