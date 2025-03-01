@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hVD7m7O3F5yLypT9UDwnhA/VMfybjNb6hP3p1VUEnsZ6u6MB7ACWBoX2h2f4NFOdZeAq7wcELUMKtEfkwR8nBw==",
+  "dgSpecHash": "rCo60nImpp5rp9c9RZFl60WR0RX2CupuCJjMTGykQ4RQhi0kc07DjxfrdFzcQ5D+JcFRzIgGRse/H21VZYBuCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bozda\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\bozda\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.36\\microsoft.data.sqlite.core.6.0.36.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.36\\microsoft.entityframeworkcore.6.0.36.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.36\\microsoft.entityframeworkcore.abstractions.6.0.36.nupkg.sha512",
