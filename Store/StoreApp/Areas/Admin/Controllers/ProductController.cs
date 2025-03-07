@@ -26,8 +26,13 @@ namespace StoreApp.Areas.Admin.Controllers
         {
             //ViewBag.Categories = _manager.CategoryService.GetAllCategories(false);
             //Create.cshtml sayfasındaki foreach yapısından kurtulmak ve TagHelper kullanmak için aşağıdaki gibi de yapabiliriz.
-            ViewBag.Categories = new SelectList(_manager.CategoryService.GetAllCategories(false), "CategoryId", "CategoryName", "1");
+            ViewBag.Categories = GetCategoriesSelectList();
             return View();
+        }
+
+        private SelectList GetCategoriesSelectList()
+        {
+            return new SelectList(_manager.CategoryService.GetAllCategories(false), "CategoryId", "CategoryName", "1");
         }
 
         [HttpPost]
@@ -44,13 +49,14 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public IActionResult Update([FromRoute(Name = "id")] int id)
         {
-            var value = _manager.ProductService.GetOneProduct(id, false);
+            ViewBag.Categories = GetCategoriesSelectList();
+            var value = _manager.ProductService.GetOneProductForUpdate(id, false);
             return View(value);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Update(Product product)
+        public IActionResult Update([FromForm] ProductDtoForUpdate product)
         {
             if (ModelState.IsValid)
             {

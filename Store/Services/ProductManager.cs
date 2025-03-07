@@ -24,11 +24,15 @@ namespace Services
             _manager.Save();
         }
 
-        public void UpdateProduct(Product product)
+        public void UpdateProduct(ProductDtoForUpdate productDto)
         {
-            var value = _manager.Product.GetOneProduct(product.ProductId, true);
-            value.ProductName = product.ProductName;
-            value.Price = product.Price;
+            // var value = _manager.Product.GetOneProduct(productDto.ProductId, true);
+            // value.ProductName = productDto.ProductName;
+            // value.Price = productDto.Price;
+            // value.CategoryId=productDto.CategoryId;
+            //Üstteki kolar yerine alltaki Map leme işlemini yapıyoruz.
+            var value =_mapper.Map<Product>(productDto);
+            _manager.Product.UpdateProduct(value);
             _manager.Save();
         }
 
@@ -57,6 +61,13 @@ namespace Services
             if (value is null)
                 throw new Exception("Product not found!");
             return value;
+        }
+
+        public ProductDtoForUpdate GetOneProductForUpdate(int id, bool trachChanges)
+        {
+            var product = GetOneProduct(id, trachChanges);
+            var productDto = _mapper.Map<ProductDtoForUpdate>(product);
+            return productDto;
         }
     }
 }

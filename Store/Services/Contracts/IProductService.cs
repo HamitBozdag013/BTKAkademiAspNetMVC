@@ -9,8 +9,9 @@ namespace Services.Contracts
         Product? GetOneProduct(int id, bool trachChanges);
 
         void CreateProduct(ProductDtoForInsertion productDto);
-        void UpdateProduct(Product product);
+        void UpdateProduct(ProductDtoForUpdate productDto);
         void DeleteProduct(int id);
+        ProductDtoForUpdate GetOneProductForUpdate(int id,bool trachChanges);
     }
     
 }
