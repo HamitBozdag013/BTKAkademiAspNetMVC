@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RfyGxqAGyDVILzcuBbSuR6kZHotWBvaMQN4AFsV/xlU=",
+  "Hash": "PQi7VYmMYs7mYX8RrMsN80dn1RGStmGiauPaHMTarmI=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
     },
     {
-      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\1.jpg",
       "SourceId": "StoreApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
       "BasePath": "_content/StoreApp",
-      "RelativePath": "images/default#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,7 +77,133 @@
       "Integrity": "Y5OjDPbxCAQAmae8v/xyh52YIwn2pXmGNmlGYxTW74g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\default.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\2.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5sczffy8x4",
+      "Integrity": "dVaczDpzg2JjnygRMbtAgnR+/JIsZHGD/ulDWdyugsk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\3.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4who7xh3as",
+      "Integrity": "bDSn/21L57TmDrv5LfofSA/yRGf/IeSj2vWOD3x7t58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\4.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0wa388x3i5",
+      "Integrity": "4FFm+8QmKtl5BtD4T7obLwJFLsweXPcmuHrwS743dl0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\5.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "og50i84ujg",
+      "Integrity": "WLIiWg4CSLmU8goU8YhetFiduA2lpPGE07e9nitrkLE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\6.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "csm5n6i2ur",
+      "Integrity": "ZA55i8kqztyYikuPOvRacexYACZ1CzcLSe0H9Ts5wss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\x5_11610817733j0.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/x5_11610817733j0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwq8f0cjo8",
+      "Integrity": "Nikic6zmmwVrL9DfcC5IIN8ZJHyCIHkpN0YjlTT+G7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\x5_11610817733j0.jpg"
     },
     {
       "Identity": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
@@ -4152,8 +4278,8 @@
       ]
     },
     {
-      "Route": "images/default.jpg",
-      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
+      "Route": "images/1.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4189,8 +4315,8 @@
       ]
     },
     {
-      "Route": "images/default.zgcdb22nti.jpg",
-      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
+      "Route": "images/1.zgcdb22nti.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4225,11 +4351,503 @@
         },
         {
           "Name": "label",
-          "Value": "images/default.jpg"
+          "Value": "images/1.jpg"
         },
         {
           "Name": "integrity",
           "Value": "sha256-Y5OjDPbxCAQAmae8v/xyh52YIwn2pXmGNmlGYxTW74g="
+        }
+      ]
+    },
+    {
+      "Route": "images/2.5sczffy8x4.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVaczDpzg2JjnygRMbtAgnR+/JIsZHGD/ulDWdyugsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5sczffy8x4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVaczDpzg2JjnygRMbtAgnR+/JIsZHGD/ulDWdyugsk="
+        }
+      ]
+    },
+    {
+      "Route": "images/2.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVaczDpzg2JjnygRMbtAgnR+/JIsZHGD/ulDWdyugsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVaczDpzg2JjnygRMbtAgnR+/JIsZHGD/ulDWdyugsk="
+        }
+      ]
+    },
+    {
+      "Route": "images/3.4who7xh3as.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75489"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bDSn/21L57TmDrv5LfofSA/yRGf/IeSj2vWOD3x7t58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4who7xh3as"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bDSn/21L57TmDrv5LfofSA/yRGf/IeSj2vWOD3x7t58="
+        }
+      ]
+    },
+    {
+      "Route": "images/3.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75489"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bDSn/21L57TmDrv5LfofSA/yRGf/IeSj2vWOD3x7t58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bDSn/21L57TmDrv5LfofSA/yRGf/IeSj2vWOD3x7t58="
+        }
+      ]
+    },
+    {
+      "Route": "images/4.0wa388x3i5.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4FFm+8QmKtl5BtD4T7obLwJFLsweXPcmuHrwS743dl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0wa388x3i5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4FFm+8QmKtl5BtD4T7obLwJFLsweXPcmuHrwS743dl0="
+        }
+      ]
+    },
+    {
+      "Route": "images/4.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4FFm+8QmKtl5BtD4T7obLwJFLsweXPcmuHrwS743dl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4FFm+8QmKtl5BtD4T7obLwJFLsweXPcmuHrwS743dl0="
+        }
+      ]
+    },
+    {
+      "Route": "images/5.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLIiWg4CSLmU8goU8YhetFiduA2lpPGE07e9nitrkLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLIiWg4CSLmU8goU8YhetFiduA2lpPGE07e9nitrkLE="
+        }
+      ]
+    },
+    {
+      "Route": "images/5.og50i84ujg.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLIiWg4CSLmU8goU8YhetFiduA2lpPGE07e9nitrkLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "og50i84ujg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLIiWg4CSLmU8goU8YhetFiduA2lpPGE07e9nitrkLE="
+        }
+      ]
+    },
+    {
+      "Route": "images/6.csm5n6i2ur.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZA55i8kqztyYikuPOvRacexYACZ1CzcLSe0H9Ts5wss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "csm5n6i2ur"
+        },
+        {
+          "Name": "label",
+          "Value": "images/6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZA55i8kqztyYikuPOvRacexYACZ1CzcLSe0H9Ts5wss="
+        }
+      ]
+    },
+    {
+      "Route": "images/6.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZA55i8kqztyYikuPOvRacexYACZ1CzcLSe0H9Ts5wss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:14:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZA55i8kqztyYikuPOvRacexYACZ1CzcLSe0H9Ts5wss="
+        }
+      ]
+    },
+    {
+      "Route": "images/x5_11610817733j0.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\x5_11610817733j0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nikic6zmmwVrL9DfcC5IIN8ZJHyCIHkpN0YjlTT+G7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 14:03:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nikic6zmmwVrL9DfcC5IIN8ZJHyCIHkpN0YjlTT+G7w="
+        }
+      ]
+    },
+    {
+      "Route": "images/x5_11610817733j0.mwq8f0cjo8.jpg",
+      "AssetFile": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\StoreApp\\wwwroot\\images\\x5_11610817733j0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nikic6zmmwVrL9DfcC5IIN8ZJHyCIHkpN0YjlTT+G7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 14:03:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwq8f0cjo8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/x5_11610817733j0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nikic6zmmwVrL9DfcC5IIN8ZJHyCIHkpN0YjlTT+G7w="
         }
       ]
     },
