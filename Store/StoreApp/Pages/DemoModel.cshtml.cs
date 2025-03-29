@@ -5,7 +5,8 @@ namespace StoreApp.Pages
 {
     public class DemoModel : PageModel
     {
-        public String? FullName { get; set; }
+        public String? FullName => HttpContext?.Session?.GetString("name") ?? "";
+
         public void OnGet()
         {
 
@@ -13,7 +14,9 @@ namespace StoreApp.Pages
 
         public void OnPost([FromForm] string name)
         {
-            FullName = name;
+            //FullName = name;
+            HttpContext.Session.SetString("name",name);
+
         }
     }
 }

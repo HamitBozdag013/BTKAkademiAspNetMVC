@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "keS8ur3Ugdg=",
+  "dgSpecHash": "0Rr12KXRH0DUWy9woQHOhDblSZTOFCdQKTkBjv8ZGKV2HtF+P9prtkBPkn+LBMzH1nPKprtgm2aoTo7FZ85oAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\Entities\\Entities.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

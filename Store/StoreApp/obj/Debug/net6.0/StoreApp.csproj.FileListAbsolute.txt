@@ -319,6 +319,3 @@ c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\
 c:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.Up2Date
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.endpoints.json
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets\msbuild.StoreApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
