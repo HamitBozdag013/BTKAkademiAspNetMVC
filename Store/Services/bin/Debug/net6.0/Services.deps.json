@@ -415,10 +415,7 @@
       },
       "Entities/1.0.0": {
         "runtime": {
-          "Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Entities.dll": {}
         }
       },
       "Repositories/1.0.0": {
@@ -428,10 +425,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.36"
         },
         "runtime": {
-          "Repositories.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Repositories.dll": {}
         }
       }
     }

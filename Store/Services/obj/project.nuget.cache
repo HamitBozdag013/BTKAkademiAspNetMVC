@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r89aVbcwu1o=",
+  "dgSpecHash": "ZiegAhM4DsdAiH3HHJxGGDSGXcqEqQbqZBp74VcFntaOvnY+TIoDBPjQSECQB/h+Pdde5B5ch/p6FVdM+Y9e/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\bozda\\source\\repos\\BTKAkademiAspNetMVC\\Store\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -34,10 +34,7 @@
     "C:\\Users\\bozda\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\bozda\\.nuget\\packages\\system.text.encodings.web\\6.0.1\\system.text.encodings.web.6.0.1.nupkg.sha512",
-    "C:\\Users\\bozda\\.nuget\\packages\\system.text.json\\6.0.11\\system.text.json.6.0.11.nupkg.sha512",
-    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\bozda\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+    "C:\\Users\\bozda\\.nuget\\packages\\system.text.json\\6.0.11\\system.text.json.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }
