@@ -37,7 +37,6 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\bin\Debug\net6.0\BtkA
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\bin\Debug\net6.0\BtkAkademi.runtimeconfig.json
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\bin\Debug\net6.0\BtkAkademi.dll
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\bin\Debug\net6.0\BtkAkademi.pdb
-C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.csproj.AssemblyReference.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.AssemblyInfoInputs.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.AssemblyInfo.cs
@@ -55,3 +54,12 @@ C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\refi
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.pdb
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.genruntimeconfig.cache
 C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\ref\BtkAkademi.dll
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\bin\Debug\net6.0\BtkAkademi.staticwebassets.endpoints.json
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\BtkAkademi.sourcelink.json
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets\msbuild.BtkAkademi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets\msbuild.BtkAkademi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets\msbuild.build.BtkAkademi.props
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BtkAkademi.props
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BtkAkademi.props
+C:\Users\bozda\source\repos\BTKAkademiAspNetMVC\BtkAkademi\obj\Debug\net6.0\staticwebassets.pack.json
